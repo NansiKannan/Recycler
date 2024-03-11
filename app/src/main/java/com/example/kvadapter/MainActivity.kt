@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             viewmodel( text = "Munch"),
             viewmodel( text = "diary Milk"),
             viewmodel( text = "Cadburys"),
-            viewmodel( text = "Ferrero"),
+            viewmodel( text = "Ferreros"),
             viewmodel( text = "Hershey’s"),
             viewmodel( text = "Nestle"),
             viewmodel( text = "Campco"),
