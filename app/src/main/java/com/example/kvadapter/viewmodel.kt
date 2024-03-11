@@ -1,3 +1,3 @@
 package com.example.kvadapter
 
-data class viewmodel(val text:String="")
+data class view_model(val text:String="")

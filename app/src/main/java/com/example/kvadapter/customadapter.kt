@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class CustomAdapter (private val mList: List<viewmodel>):
+class CustomAdapter (private val mList: List<view_model>):
     RecyclerView.Adapter<CustomAdapter.ViewHolder>(){
     private var selectedItemPosition: Int = RecyclerView.NO_POSITION
-    private var itemClickListener: ((position: Int, item: viewmodel) -> Unit)? = null
+    private var itemClickListener: ((position: Int, item: view_model) -> Unit)? = null
 
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        val textView: TextView =itemView.findViewById(R.id.chocolates)
+        val textView: TextView =itemView.findViewById(R.id.chocolate)
 
     }
 

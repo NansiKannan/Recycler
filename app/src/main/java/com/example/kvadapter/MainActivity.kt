@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             viewmodel( text = "Nestle"),
             viewmodel( text = "Campco"),
             viewmodel( text = "Lotte"),
-            viewmodel( text = "Fantasle"),
+            viewmodel( text = "Fantasle")
         )
 
         RecyclerView = findViewById(R.id.recyclerView)
