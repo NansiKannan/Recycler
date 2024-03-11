@@ -13,7 +13,7 @@ class CustomAdapter (private val mList: List<viewmodel>):
     private var itemClickListener: ((position: Int, item: viewmodel) -> Unit)? = null
 
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        val textView: TextView =itemView.findViewById(R.id.chocolate)
+        val textView: TextView =itemView.findViewById(R.id.chocolates)
 
     }
 
